@@ -1,6 +1,12 @@
 @extends('layout/main')
 @section('content')
+<link rel="stylesheet" type="text/css" href="{{ asset('../css/design.css') }}" >
 <section class="vh-100 gradient-custom">
+  <div class="button">
+    <a href="/start">
+    <button class="btn"><i class="fa fa-home"></i></button>
+    </a>
+  </div>
   <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
@@ -21,8 +27,9 @@
                   <input type="password" id="typePasswordX" class="form-control form-control-lg" />
                   <label class="form-label" for="typePasswordX">Password</label>
                 </div>
-  
-                <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+                
+                <p class="small mb-5 pb-lg-2"><a class="text-white-50" href="/password">Forgot password?</a></p>
+                
               <a href="/login">  
                 <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
               </a>  
