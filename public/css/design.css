@@ -26,3 +26,8 @@ display: flex;
 justify-content: end;
 
 }
+.picture{
+  background-image: url('https://i.pinimg.com/originals/22/49/0d/22490db63367ba74ec73e9e913343f09.jpg');
+  height: 100%;
+  
+}

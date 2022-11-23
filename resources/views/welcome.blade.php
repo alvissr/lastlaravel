@@ -2,11 +2,6 @@
 @section('content')
 <link rel="stylesheet" type="text/css" href="{{ asset('../css/design.css') }}" >
 <section class="vh-100 gradient-custom">
-  <div class="button">
-    <a href="/start">
-    <button class="btn"><i class="fa fa-home"></i></button>
-    </a>
-  </div>
   <div class="container py-5 h-100">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-12 col-md-8 col-lg-6 col-xl-5">
