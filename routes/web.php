@@ -42,4 +42,8 @@ Route::get('/welcome', function () {
 Route::get('/start', function () {
     return view('start');
 });
+Route::get('/Champions', function () {
+    return view('Champions');
+});
+
 
